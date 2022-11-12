@@ -54,7 +54,7 @@ p {
 }
 
 /*styling for desktop*/
-@media screen and (min-width:1280px) and (max-width:1440px){
+@media screen and (min-width:1280px) {
 .qr-container {
     background-color: white;
     display: flex;

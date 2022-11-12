@@ -10,8 +10,8 @@ Mobile view of QR component page.
 
 ## Links
 
-- GitHub Repo URL: [GitHub Repo](https://github.com/KarlaB3/frontend-mentor-qrcode)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- GitHub: [GitHub Repo](https://github.com/KarlaB3/frontend-mentor-qrcode)
+- Netlify: [Live Site](https://kb-qr-component.netlify.app/)
 
 ## Tech Stack
 

@@ -1,0 +1,137 @@
+/* General page styling */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Outfit";
+    background-color: hsl(212, 45%, 89%);
+}
+
+/*styling of qr container*/
+.qr-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5em 1.5em 2.9em 1.5em;
+    padding: 1em;
+    border-radius: 5%;
+}
+
+/* styling of images*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+img.round-corner {
+    border-radius: 5%;
+}
+
+/*styling of text elements*/
+h1 {
+    color: hsl(218, 44%, 22%);
+    font-size: 1.3em;
+    text-align: center;
+    padding: 1em 0.8em 0.8em 0.8em;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+    font-size: 1em;
+    text-align: center;
+    padding: 0.4em 0.8em 1.5em 0.8em;
+}
+
+/*styling for desktop*/
+@media screen and (min-width:1280px) and (max-width:1440px){
+.qr-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10em 35em 10em 35em;
+    padding: 1em;
+    border-radius: 5%;
+}
+
+/* styling of images*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
+}
+
+img.round-corner {
+    border-radius: 5%;
+}
+
+/*styling of text elements*/
+h1 {
+    color: hsl(218, 44%, 22%);
+    font-size: 1.3em;
+    text-align: center;
+    padding: 1em 0.8em 0.8em 0.8em;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+    font-size: 1em;
+    text-align: center;
+    padding: 0.4em 0.8em 1.5em 0.8em;
+}
+}
+
+/*styling for tablet*/
+@media screen and (min-width:768px) and (max-width:1280px) {
+    .qr-container {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 8em 10em 8em 10em;
+        padding: 1em;
+        border-radius: 5%;
+    }
+    
+    /* styling of images*/
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 99%;
+    }
+    
+    img.round-corner {
+        border-radius: 5%;
+    }
+    
+    /*styling of text elements*/
+    h1 {
+        color: hsl(218, 44%, 22%);
+        font-size: 1.7em;
+        text-align: center;
+        padding: 1em 0.8em 0.8em 0.8em;
+    }
+    
+    p {
+        color: hsl(220, 15%, 55%);
+        font-size: 1.4em;
+        text-align: center;
+        padding: 0.4em 0.8em 1.5em 0.8em;
+    }
+    
+    }
